@@ -7,3 +7,8 @@ function isNumber(n) {
 function isObject(n) {
     return typeof(n) == 'Object';
 }
+
+function alarm()
+{
+    alert('O_O');
+}
