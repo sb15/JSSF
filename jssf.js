@@ -8,6 +8,7 @@ function isObject(n) {
     return typeof(n) == 'Object';
 }
 
+/* alarm, cap! */
 function alarm()
 {
     alert('O_O');
