@@ -1,4 +1,9 @@
 /* Проверка на число */
-function isNumber() {
+function isNumber(n) {
     return !isNaN(parseFloat(n)) && isFinite(n);
+}
+
+/* Проверка на объект */
+function isObject(n) {
+    return typeof(n) == 'Object';
 }
